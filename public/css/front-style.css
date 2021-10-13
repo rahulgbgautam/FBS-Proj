@@ -1,0 +1,199 @@
+/* Login Page Style Here */
+
+.login-signup-box {
+    min-height: 100vh;
+    padding-top: 0px;
+}
+
+.form-box {
+    width: 50%;
+    padding: 40px 20px;
+
+}
+
+.form-box form {
+    max-width: 450px;
+    margin: 0 auto;
+    border: 1px solid #ffffff;
+    border-radius: 15px;
+    padding: 20px 39px 35px 39px;
+}
+
+.form-head {
+    padding-bottom: 30px;
+}
+
+.form-head h1 {
+    max-width: 140px;
+    padding: 0 0 20px;
+    margin: auto;
+}
+
+.form-head h2 {
+    color: #ffffff;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.form-group {
+    margin-bottom: 16px;
+}
+
+.form-group label {
+    color: #f0f0f0;
+    font-size: 14px;
+    line-height: 20px;
+    vertical-align: top;
+    margin-bottom: 8px;
+}
+
+.form-group .form-control {
+    background-color: #E0E7FF33;
+    border: 1px solid #E0E7FF;
+    border-radius: 5px;
+    box-shadow: none;
+    color: #ffffff;
+    font-size: 12px;
+    height: 48px;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+    -webkit-box-shadow: none;
+}
+
+
+.form-box .custom-dropdown::after {
+    background-color: #f8faffd1;
+    border-radius: 6px;
+    width: 40px;
+    height: 45px;
+}
+
+.form-button {
+    padding: 30px 0 0;
+}
+
+.form-button p {
+    color: #8C98A9;
+    font-size: 14px;
+    line-height: 18px;
+    padding-top: 16px;
+}
+
+.form-button p a {
+    font-weight: 600;
+}
+
+.form-button .btn {
+    min-width: 250px;
+}
+
+.form-image-box {
+    width: 50%;
+    max-height: 570px;
+}
+
+.form-image-box img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Reset Page Style Here */
+
+.login-signup-box.reset-page {
+    background-color: #000000;
+}
+
+/* Signup Page Style Here */
+
+.personal-information,
+.domain-information {
+    width: 100%;
+    padding-right: 50px;
+}
+
+.signup_section .sub-head h3 {
+    font-size: 24px;
+    font-weight: 500;
+    padding: 0 0 18px;
+    line-height: 30px;
+}
+
+.signup_section .sub-head p {
+    color: #8C98A9;
+    line-height: 22px;
+    padding: 0px 0 20px;
+    font-size: 14px;
+}
+
+.signup_section .form-button p {
+    color: #8C98A9;
+    font-size: 20px;
+    line-height: 26px;
+    padding: 16px 0;
+}
+
+.back-to-login {
+    border-left: 1px solid #cccccc;
+    padding-left: 20px;
+    width: 100%;
+    max-width: 360px;
+    text-align: left;
+}
+
+.back-to-login .form-button {
+    padding: 0px;
+}
+
+.back-to-login .form-button .btn {
+    margin: 20px;
+}
+
+.form-group .text-danger,
+.form-box .text-danger {
+    font-size: 12px;
+    font-weight: 400;
+    padding: 2px 0 0;
+    display: block;
+}
+
+.form-box .dangermessage {
+    color: #721c24 !important;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    border-radius: .25rem;
+    padding: .75rem 1.25rem;
+    display: block;
+    margin-top: 10px;
+}
+
+.form-box .dangermessage strong,
+.form-box .successmessage strong {
+    padding: 0px;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.form-box .successmessage {
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+    border-radius: .25rem;
+    color: #155724 !important;
+    display: block;
+    font-size: 12px;
+    padding: .75rem 1.25rem;
+    margin-top: 10px;
+}
+
+.show-password input[type="checkbox"] {
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 6px;
+}
